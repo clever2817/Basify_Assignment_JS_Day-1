@@ -58,3 +58,12 @@ if (marks >= 60 && marks <= 69) {
 if (marks < 60) {
   console.log("F");
 }
+
+// Problem-5
+let number = 24;
+
+if (number % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
