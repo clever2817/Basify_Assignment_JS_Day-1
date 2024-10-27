@@ -17,3 +17,10 @@ console.log(multi);
 let div = a / b;
 
 console.log(div);
+
+// Problem-2
+let celsius = 20;
+
+let fahrenheit = (celsius * 9) / 5 + 32;
+
+console.log(fahrenheit);
