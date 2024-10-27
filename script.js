@@ -24,3 +24,14 @@ let celsius = 20;
 let fahrenheit = (celsius * 9) / 5 + 32;
 
 console.log(fahrenheit);
+
+// Problem-3
+let num = prompt("Enter a Number: ");
+
+if (num > 0) {
+  console.log("positive Number");
+} else if (num < 0) {
+  console.log("Negative Number");
+} else {
+  console.log("Zero Number");
+}
