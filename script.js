@@ -35,3 +35,26 @@ if (num > 0) {
 } else {
   console.log("Zero Number");
 }
+
+// Problem-4
+let marks = 68;
+
+if (marks >= 90) {
+  console.log("A");
+}
+
+if (marks >= 80 && marks <= 89) {
+  console.log("B");
+}
+
+if (marks >= 70 && marks <= 79) {
+  console.log("C");
+}
+
+if (marks >= 60 && marks <= 69) {
+  console.log("D");
+}
+
+if (marks < 60) {
+  console.log("F");
+}
